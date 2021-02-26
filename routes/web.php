@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', HomeController::class)->name('home');
+
+Auth::routes();
+
+Route::get('/admin', [App\Http\Controllers\admin\HomeController::class, 'index'])->name('admin');
+Route::get('/admin/proyectos', [App\Http\Controllers\admin\ProyectoController::class, 'index'])->name('admin.proyectos');
+Route::post('/admin/proyectos/crear', [App\Http\Controllers\admin\ProyectoController::class, 'store'])->name('admin.proyectos.crear');
