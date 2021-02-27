@@ -29,11 +29,12 @@
     <script src="{{asset('assets/lib/typed/typed.min.js')}}"></script>
 
     <script src="{{asset('assets/lib/jquery/nieve.js')}}"></script>
-    <script>
+    {{-- navidad --}}
+    {{-- <script>
         $(document).ready(function(){
         $.fn.snow();
         })
-    </script>
+    </script> --}}
     <!-- Contact Form JavaScript File -->
     <!-- <script src="contactform/contactform.js"></script> -->
 

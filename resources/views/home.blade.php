@@ -220,15 +220,15 @@
                         </a>
                         <div class="work-content">
                             <div class="row">
-                            <div class="col-sm-8">
+                            <div class="col-sm-10">
                                 <h2 class="w-title">{{$proyecto->nombre}}</h2>
                                 <div class="w-more">
-                                <a href="{{$proyecto->link}}"><span class="w-ctegory">{{$proyecto->link}}</span></a>
+                                <a href="{{$proyecto->link}}" target="blank"><span class="w-ctegory">{{$proyecto->link}}</span></a>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-2">
                                 <div class="w-like">
-                                <span class="ion-ios-plus-outline"></span>
+                                  <span class="ion-ios-plus-outline"></span>
                                 </div>
                             </div>
                             </div>
