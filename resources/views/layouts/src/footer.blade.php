@@ -1,5 +1,5 @@
 <!--/ Section Contact-Footer Star /-->
-<section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
+<section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url({{asset('assets/img/overlay-bg.jpg')}})">
     <div class="overlay-mf"></div>
     <div class="container">
     <div class="row">
