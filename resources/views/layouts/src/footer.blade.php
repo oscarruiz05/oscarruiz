@@ -14,10 +14,10 @@
                     </h5>
                 </div>
                 <div>
-                    <form action="{{route('contacto')}}" method="post" role="form" class="contactForm">
+                    <form action="{{route('contacto')}}" method="POST" role="form" class="contactForm">
                         @csrf
-                        <div id="sendmessage" >Tu mensaje se ha enviado corectamente. Gracias por cantartarnos!!.. </div>
-                        <div id="errormessage"></div>
+                        <div id="sendmessage">Tu mensaje se ha enviado corectamente. Gracias por cantartarnos!!.. </div>
+                        <div id="errormessage">No hemos podido enviar tu mensaje!!..</div>
                         <div class="row">
                             <div class="col-md-12 mb-3">
                             <div class="form-group">
@@ -39,12 +39,12 @@
                             </div>
                             <div class="col-md-12 mb-3">
                             <div class="form-group">
-                                <textarea class="form-control" name="mensaje" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensaje"></textarea>
+                                <textarea class="form-control" id="mensaje" name="mensaje" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensaje"></textarea>
                                 <div class="validation"></div>
                             </div>
                             </div>
                             <div class="col-md-12">
-                            <button type="submit" class="button button-a button-big button-rouded">Enviar Mensaje</button>
+                            <button type="submit" class="button button-a button-big button-rouded" id="enviar_mensaje">Enviar Mensaje</button>
                             </div>
                         </div>
                     </form>

@@ -40,5 +40,7 @@
 
     <!-- Template Main Javascript File -->
     <script src="{{asset('assets/js/main.js')}}"></script>
+    <script src="{{asset('assets/js/correos.js')}}"></script>
+    <script src="{{asset('assets/contactform/contactform.js')}}"></script>
 </body>
 </html>

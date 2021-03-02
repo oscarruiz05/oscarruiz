@@ -26,7 +26,7 @@
                 <a class="nav-link js-scroll" href="#work">Trabajos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link js-scroll" href="https://oscarruizblog.blogspot.com/" target="blank">Blog</a>
+                <a class="nav-link js-scroll" href="https://www.oscarruizblog.tk/" target="blank">Blog</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link js-scroll" href="#contact">Contacto</a>

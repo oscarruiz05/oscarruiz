@@ -107,12 +107,12 @@
             <div class="col-md-4">
             <div class="service-box">
                 <div class="service-ico">
-                <span class="ico-circle"><i class="ion-monitor"></i></span>
+                <span class="ico-circle"><i class="ion-chatbubbles"></i></span>
                 </div>
                 <div class="service-content">
-                <h2 class="s-title">Web Design</h2>
+                <h2 class="s-title">Soporte</h2>
                 <p class="s-description text-center">
-                Diseña tu pagina web a tu estilo, con una interfaz profesional.
+                  Con la mejor atención al cliente, sin salir de casa.
                 </p>
                 </div>
             </div>
@@ -123,7 +123,7 @@
                 <span class="ico-circle"><i class="ion-code-working"></i></span>
                 </div>
                 <div class="service-content">
-                <h2 class="s-title">Web Development</h2>
+                <h2 class="s-title">Desarrollo Web</h2>
                 <p class="s-description text-center">
                     con la con una excelente infraesctructura de back end.
                 </p>
