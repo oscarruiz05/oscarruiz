@@ -16,8 +16,14 @@
                 <div>
                     <form action="{{route('contacto')}}" method="POST" role="form" class="contactForm">
                         @csrf
-                        <div id="sendmessage">Tu mensaje se ha enviado corectamente. Gracias por cantartarnos!!.. </div>
-                        <div id="errormessage">No hemos podido enviar tu mensaje!!..</div>
+                        <div class="alert alert-dismissible" id="sendmessage">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            Tu mensaje se ha enviado corectamente. Gracias por cantartarnos!!..
+                        </div>
+                        <div class="alert alert-dismissible" id="errormessage">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            No hemos podido enviar tu mensaje!!..
+                        </div>
                         <div class="row">
                             <div class="col-md-12 mb-3">
                             <div class="form-group">

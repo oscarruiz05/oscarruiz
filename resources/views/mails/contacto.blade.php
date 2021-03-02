@@ -261,7 +261,8 @@
                     <tr>
                         <th class="column" width="640" style="padding-left: 30px; padding-right: 30px; text-align: left;">
                             <a href="http://oscarruiz.tk/" style="text-decoration: none;">
-                                <img class="mobile-center" src="http://testmedicexpress.tk/assets/img/logo/logo.svg" width="200" alt="Header Logo" style="border: 0; width: 100%; max-width: 200px;">
+                                <h1>OSCAR RUIZ</h1>
+                                {{-- <img class="mobile-center" src="http://testmedicexpress.tk/assets/img/logo/logo.svg" width="200" alt="Header Logo" style="border: 0; width: 100%; max-width: 200px;"> --}}
                             </a>
                         </th>
                         <th class="column" width="640" style="padding-left: 30px; padding-right: 30px; text-align: right;">
@@ -285,8 +286,8 @@
                             <table class="row" align="center" cellpadding="0" cellspacing="0">
                                 <tr>
                                     <th class="column" width="640" style="text-align: left;">
-                                        <div class="serif" style="color: #1F2225; font-size: 28px; font-weight: 700; line-height: 50px; margin-bottom: 15px;">Hola Leinercito,</div>
-                                        <div class="sans-serif" style="color: #969AA1; font-size: 18px; font-weight: 400; line-height: 28px; margin-bottom: 50px;">Mensaje enviado desde la pagina Medicexpress.</div>
+                                        <div class="serif" style="color: #1F2225; font-size: 28px; font-weight: 700; line-height: 50px; margin-bottom: 15px;">Hola Oscar,</div>
+                                        <div class="sans-serif" style="color: #969AA1; font-size: 18px; font-weight: 400; line-height: 28px; margin-bottom: 50px;">Mensaje enviado desde la pagina Oscarruiz.tk</div>
                                     </th>
                                 </tr>
                             </table>
@@ -326,11 +327,8 @@
                                     <th class="column" width="310" style="padding-right: 10px; color: #969AA1; font-size: 13px; font-weight: 400; text-align: left;">
                                         <!-- <div class="sans-serif" style="color: #1F2225; font-size: 17px; margin-bottom: 30px;">Datos del cliente:</div> -->
                                         <div class="sans-serif" style="font-size: 14px; margin-top: 50px;">
-                                            <div class="sans-serif" style="font-size: 14px; margin-bottom: 6px;"><strong>Medicexpress</strong></div>
-                                            
-                                            <br> Urdenor 1 MZ 139 EDIF. Citrino Ofc305.
-                                            <br> +593 969 665 037
-                                            <br> servicioalcliente@medicexpress.com
+                                            <div class="sans-serif" style="font-size: 14px; margin-bottom: 6px;"><strong>Oscar Ruiz</strong></div>
+                                            <br> oscarruiz2614@gmail.com
                                             <br>
                                         </div>
                                         <!-- <div class="sans-serif" style="font-size: 14px;"><strong>VAT No</strong>: FR576439201</div> -->
@@ -356,7 +354,8 @@
                                 <tr valign="top" style="vertical-align: top;">
                                     <th class="column mobile-padding-bottom" width="255" style="padding-top: 10px; padding-right: 10px; text-align: left;">
                                         <a href="http://oscarruiz.tk/">
-                                            <img src="http://testmedicexpress.tk/assets/img/logo/logo.svg" width="150" alt="Footer Logo" style="border: 0; width: 100%; max-width: 150px;">
+                                            <h1>OSCAR RUIZ</h1>
+                                            {{-- <img src="http://testmedicexpress.tk/assets/img/logo/logo.svg" width="150" alt="Footer Logo" style="border: 0; width: 100%; max-width: 150px;"> --}}
                                         </a>
                                     </th>
                                     <th class="column mobile-text-left" width="365" style="padding-left: 10px;">
@@ -386,23 +385,12 @@
                                 </tr>
                             </table>
 
-                            <table class="row" cellpadding="0" cellspacing="0">
-                                <tr valign="top" style="vertical-align: top;">
-                                    <th class="column mobile-12" width="200" style="padding-right: 10px; color: #969AA1; font-weight: 400; text-align: left;">
-                                        <div class="sans-serif" style="font-size: 14px; text-align: justify; font-weight: 700; margin-bottom: 15px;">Medicexpress</div>
-                                        <div class="sans-serif" style="font-size: 12px; text-align: justify;">
-                                            Forjando juntos una intervención efectiva, eficiente y eficaz al compromiso de mejorar la calidad de vida y siguiendo las normativas vigentes establecidas a nivel Nacional.
-                                        </div>
-                                    </th>
-                                </tr>
-                            </table>
-
                             <div class="spacer" style="font-size: 40px; line-height: 40px; mso-line-height-rule: exactly;">&nbsp;</div>
 
                             <table class="row" cellpadding="0" cellspacing="0">
                                 <tr>
                                     <th class="column" width="640" style="color: #969AA1; font-weight: 400; text-align: center;">
-                                        <div class="sans-serif">Medicexpress. &copy;
+                                        <div class="sans-serif">Oscar Ruiz. &copy;
                                             <script>
                                                 n = new Date();
                                                 y = n.getFullYear();

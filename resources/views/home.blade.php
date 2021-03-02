@@ -28,7 +28,7 @@
                     <div class="row">
                       <div class="col-sm-6 col-md-5">
                         <div class="about-img">
-                          <img src="{{asset('assets/imge/2.jpeg')}}" class="img-fluid rounded b-shadow-a" alt="">
+                          <img src="{{asset('assets/img/perfil.jpeg')}}" class="img-fluid rounded b-shadow-a" alt="">
                         </div>
                       </div>
                       <div class="col-sm-6 col-md-7">
