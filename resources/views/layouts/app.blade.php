@@ -9,7 +9,7 @@
 
     @yield('content')
 
-    
+
     <!--/ footer /-->
     @include('layouts.src.footer')
     <!--/ footer end /-->
@@ -29,12 +29,12 @@
     <script src="{{asset('assets/lib/typed/typed.min.js')}}"></script>
 
     <script src="{{asset('assets/lib/jquery/nieve.js')}}"></script>
-    {{-- navidad --}}
-    {{-- <script>
+    <!-- navidad -->
+    <script>
         $(document).ready(function(){
         $.fn.snow();
         })
-    </script> --}}
+    </script>
     <!-- Contact Form JavaScript File -->
     <!-- <script src="contactform/contactform.js"></script> -->
 

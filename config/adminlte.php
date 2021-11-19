@@ -226,8 +226,8 @@ return [
     'menu' => [
         [
             'text' => 'buscar',
-            'search' => true,
-            'topnav' => true,
+            'search' => false,
+            'topnav' => false,
         ],
         [
             'text' => 'blog',
