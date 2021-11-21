@@ -24,6 +24,11 @@
     <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
     <link href="{{asset('assets/css/myStyles.css')}}" rel="stylesheet">
 
+    <!-- anuncios -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4820466332161344"
+     crossorigin="anonymous"></script>
+
+
     <!-- =======================================================
 
     ======================================================= -->
