@@ -2,10 +2,10 @@
 <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
     <!-- logo normal -->
-    {{-- <a class="navbar-brand js-scroll" href="#page-top">OSCAR RUIZ</a> --}}
+    <a class="navbar-brand js-scroll" href="#page-top">OSCAR RUIZ</a>
 
     <!-- navidad -->
-    <a class="navbar-brand js-scroll" href="#page-top">OSCAR RUIZ <img style="width: 35px; vertical-align: top;" src="{{asset('assets/img/arbol-de-navidad.png')}}" alt=""></a>
+    {{-- <a class="navbar-brand js-scroll" href="#page-top">OSCAR RUIZ <img style="width: 35px; vertical-align: top;" src="{{asset('assets/img/arbol-de-navidad.png')}}" alt=""></a> --}}
     <!-- navidad end -->
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">

@@ -32,7 +32,7 @@
     <!-- navidad -->
     <script>
         $(document).ready(function(){
-        $.fn.snow();
+        // $.fn.snow();
         })
     </script>
     <!-- Contact Form JavaScript File -->
