@@ -8,3 +8,15 @@
     background-color: #007bff;
     color: #fff;
 }
+.habilidades-title{
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem !important;
+}
+.habilidades .habilidades-icon{
+    width: 25%;
+    padding: .5rem;
+    align-self: center;
+}
+.habilidades .habilidades-icon img{
+    width: 100%;
+}

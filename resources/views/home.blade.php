@@ -46,26 +46,33 @@
                                     </div>
                                 </div>
                                 <div class="skill-mf">
-                                    <p class="title-s">Habilidades</p>
-                                    <span>HTML</span> <span class="pull-right">85%</span>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 85%;"
-                                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <span>Laravel</span> <span class="pull-right">45%</span>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="75"
-                                            aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <span>PHP</span> <span class="pull-right">50%</span>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50"
-                                            aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <span>Javascript</span> <span class="pull-right">40%</span>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="90"
-                                            aria-valuemin="0" aria-valuemax="100"></div>
+                                    {{-- <p class="title-s">Habilidades</p> --}}
+                                    <h5 class="title-left habilidades-title">
+                                        Habilidades
+                                    </h5>
+
+                                    <div class="habilidades row">
+                                        <div class="habilidades-icon">
+                                            <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="">
+                                        </div>
+                                        <div class="habilidades-icon">
+                                            <img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg" alt="">
+                                        </div>
+                                        <div class="habilidades-icon">
+                                            <img src="https://www.vectorlogo.zone/logos/laravel/laravel-ar21.svg" alt="">
+                                        </div>
+                                        <div class="habilidades-icon">
+                                            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" alt="">
+                                        </div>
+                                        <div class="habilidades-icon">
+                                            <img src="https://www.vectorlogo.zone/logos/javascript/javascript-horizontal.svg" alt="">
+                                        </div>
+                                        <div class="habilidades-icon">
+                                            <img src="https://www.vectorlogo.zone/logos/apache/apache-official.svg" alt="">
+                                        </div>
+                                        <div class="habilidades-icon">
+                                            <img src="https://www.vectorlogo.zone/logos/digitalocean/digitalocean-ar21.svg" alt="">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
