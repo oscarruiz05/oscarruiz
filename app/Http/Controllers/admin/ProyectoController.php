@@ -17,7 +17,6 @@ class ProyectoController extends Controller
 
     public function __construct() {
         $this->date = Carbon::now('America/Bogota');
-        $this->middleware('auth');
     }
 
     public function index(Proyecto $proyecto){
@@ -26,19 +25,49 @@ class ProyectoController extends Controller
     }
 
     public function store(Request $request){
-        $extension_file_documento = pathinfo($request->file('imagen')->getClientOriginalName(), PATHINFO_EXTENSION);
-        $ruta_file_documento = 'admin/proyectos/';
-        $nombre_file_documento = 'imagen_'.$this->date->isoFormat('YMMDDHmmss').'.'.$extension_file_documento;
-        Storage::disk('public')->put($ruta_file_documento.$nombre_file_documento, File::get($request->file('imagen')));
+        $imagen = $request->file('imagen')->store('public/admin/proyectos');
+        $url = Storage::url($imagen);
 
-        $nombre_completo_file_documento = $ruta_file_documento.$nombre_file_documento;
         $proyecto = Proyecto::create([
             'fecha' => $this->date->format('Y-m-d'),
             'nombre' => $request['nombre'],
             'slug' => Str::slug($request['nombre']),
-            'imagen' => $nombre_completo_file_documento,
+            'imagen' => $url,
             'link' => $request['link']
         ]);
         return redirect()->route('admin.proyectos')->with(['create' => 1, 'mensaje' => 'proyecto creado correctamente']);
+    }
+
+    public function show($id){
+        $proyecto = Proyecto::find($id);
+        return response()->json([
+            'data' => $proyecto
+        ]);
+    }
+
+    public function update($id, Request $request){
+        $proyecto = Proyecto::find($id);
+        $proyecto->update([
+            'nombre' => $request['nombre'],
+            'slug' => Str::slug($request['nombre']),
+            'link' => $request['link']
+        ]);
+        if($request->file('imagen')){
+            /* buscar y elimina imagen */
+            $delete_url = str_replace('storage', 'public', $proyecto->imagen);
+            Storage::delete($delete_url);
+            /* actualiza imagen */
+            $imagen = $request->file('imagen')->store('public/admin/proyectos');
+            $url = Storage::url($imagen);
+
+            $proyecto->update(['imagen' => $url]);
+        }
+        return redirect()->route('admin.proyectos')->with(['create' => 1, 'mensaje' => 'proyecto actualizado correctamente']);
+    }
+
+    public function delete($id){
+        $proyecto = Proyecto::find($id);
+        $proyecto->delete();
+        return redirect()->route('admin.proyectos')->with(['create' => 1, 'mensaje' => 'proyecto eliminado correctamente']);
     }
 }
