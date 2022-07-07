@@ -29,15 +29,13 @@
     <script src="{{asset('assets/lib/typed/typed.min.js')}}"></script>
 
     <script src="{{asset('assets/lib/jquery/nieve.js')}}"></script>
-    <!-- navidad -->
+    <!-- token csrf -->
     <script>
+        /* navidad */
         $(document).ready(function(){
         // $.fn.snow();
         })
     </script>
-    <!-- Contact Form JavaScript File -->
-    <!-- <script src="contactform/contactform.js"></script> -->
-
     <!-- Template Main Javascript File -->
     <script src="{{asset('assets/js/main.js')}}"></script>
     <script src="{{asset('assets/js/correos.js')}}"></script>

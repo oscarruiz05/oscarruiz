@@ -28,8 +28,6 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4820466332161344"
      crossorigin="anonymous"></script>
 
-
-    <!-- =======================================================
-
-    ======================================================= -->
+    <!-- token csrf -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
   </head>
