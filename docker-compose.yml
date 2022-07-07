@@ -1,0 +1,11 @@
+version: '3.5'
+services:
+  portafolio:
+      build:
+        context: .
+        dockerfile: Dockerfile
+      image: 'portafolio:latest'
+      container_name: portafolio
+      ports:
+           - '100:80'
+      restart: always
